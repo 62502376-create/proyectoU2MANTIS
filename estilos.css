@@ -57,13 +57,13 @@ p
 header
 {
 
-padding: 40px 6;
+padding: 28px 0;
 position: fixed;/*posicion fija*/
 top: 0;
 left:0;/*pegado a la izquierda*/
 z-index: 2; /*para que este encima*/
 width: 100%;/*para q ocupe todo el ancho*/
-background-color: rgb(16, 7, 7);
+ background: linear-gradient(125deg, #000000, #a31a9a);
 }
 
 header.contenedor
@@ -86,17 +86,17 @@ width: 50px;
 
 header .contenedor nav a
 {
-color:rgb(38, 6, 44);
-text-decoration: none;
+color:rgb(255, 255, 255);
+text-decoration: rgb(2, 1, 2);
 margin:5px 5px;
-font-size: 15px;
+font-size: 17px;
 font-family: "Montserrat";
 font-weight:bold
 }
 
 header .contenedor nav a:hover
 {
-color:rgb(10, 255, 83);
+color:rgb(255, 0, 234);
 
 }
 
@@ -245,7 +245,7 @@ display: block;/*no genera espacios a los lados*/
 #inicio .bloque-inicio
 {
 position: absolute;/*el espacio no se mantiene no va a ocupar un espacio*/
-top:50%;/*desde arriba hacia la mitad de la pantalla del bloque inicio*/
+top:70%;/*desde arriba hacia la mitad de la pantalla del bloque inicio*/
 left: 50%;
 width: 400px;
 text-align: center;
@@ -255,16 +255,16 @@ margin-left: -200px;
 
 #inicio .bloque-inicio h1
 {
-color: rgb(0, 255, 72);
+color: rgb(241, 236, 244);
 font-size: 35px;
-
-
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #inicio .bloque-inicio p
 {
-color: rgb(2, 255, 52);
-font-size: 16px;
+color: rgb(200, 142, 197);
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -284,7 +284,7 @@ font-size: 16px;
 
 .boton.boton-verde{
     color:white;
-    background-color: rgb(255, 6, 189);
+    background: linear-gradient(125deg, #776bb2, #6e1282);
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
@@ -318,13 +318,15 @@ font-size: 16px;
    /*background-image: url(img/latas.jpg);*/
    background-color: rgb(38, 6, 44); 
    background-size: cover;
-   color: rgb(127, 255, 22);
+   color: rgb(255, 255, 255);
    text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 16px;
 }
 
 #nosotros p
 {
-color: rgb(255, 255, 255);
+color: rgb(167, 20, 20);
 text-align: center;
 font-size: 16px;
 /*margin:0;*/
